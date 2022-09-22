@@ -1,5 +1,0 @@
-Name ,Age ,Qualification, Address
-Amiya	,18,	MCA,	BBS
-Niru	,23,	Msc	,BLS
-Debi	,23,	BCA,	SBP
-Biku	,56,	ISC	,JJP

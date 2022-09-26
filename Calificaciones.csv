@@ -1,5 +1,11 @@
-Name,Age,Qualification,Address
-Anita,18,MCA,BBS
-Katia,17,MSC,BLS
-Shirley,45,BCA,SBP
-Leila,19,ISC,JJP
+Name,Age,Sex,Qualification,Address
+Anita,18,M,MCA,BBS
+Katia,17,M,MSC,BLS
+Shirley,45,M,BCA,SBP
+Leila,19,M,ISC,JJP
+Jairo,15,H,BCA,SBP
+Manuel,15,H,ISC,JJP
+Jose,20,H,MCA,BBS
+Carlos,23,H,MSC,BLS
+Shirley,15,M,MCA,BLS
+Yoselin,17,M,MSC,SBP

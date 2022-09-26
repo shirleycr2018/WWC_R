@@ -171,13 +171,22 @@ pi # Algunas constantes se encuentran predefinidas
  #----------------------------------------#
  
  url1 <- "https://raw.githubusercontent.com/shirleycr2018/WWC_R_S1/main/heroes_information.csv"
- 
  data1 <- read.csv(url1)
  
  
  url2 <- "https://raw.githubusercontent.com/shirleycr2018/WWC_R_S1/main/Calificaciones.csv"
  data2 <- read.csv(url2, header=TRUE, sep=",")
  
+ str(data2)
+ data2$Sex <- toupper(data2$Sex)
+
+ as.factor(data2$Sex)
+ data2$Sex <- as.factor(data2$Sex)
+ str(data2)
+ 
+ 
+ write.csv(data2, "myNewFile.csv")
+
  write.csv(data2, "myNewFile.csv")
  
  

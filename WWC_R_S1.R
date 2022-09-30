@@ -128,7 +128,22 @@ pi # Algunas constantes se encuentran predefinidas
  
  class(data.frame) # La clase de un data frame es data.frame
  
- 
+#Direccionamiento 
+# Ejemplos de direccionamiento 
+
+ animales1["clase"]
+ animales1[["clase"]]
+
+
+ animales1["animal"]
+ animales1[["animal"]]
+
+animales1[1]
+animales1[[1]]
+
+animales1[2]
+animales1[[2]]
+
  #----------------------------------------#
  # ESTRUCTURAS DE CONTROL 
  #----------------------------------------#

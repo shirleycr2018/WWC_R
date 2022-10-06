@@ -139,8 +139,11 @@ dim(m4)
  
 # creamos  
  sexo <- c("M", "H", "M", "M", "M", "H", "M", "M", "H", "H")
- sexo <- factor(sexo,levels=c("H","M"),labels=c("Hombre","Mujer"))
- sexo 
+ sexo_factor <- factor(sexo,
+                levels=c("H","M"),
+                labels=c("Hombre","Mujer"))
+ 
+ plot(sexo_factor) 
  
 # En este ejemplo creamos un factor para los meses del año
  
